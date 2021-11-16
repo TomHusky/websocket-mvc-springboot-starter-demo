@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+
+spring:
+  application:
+    name: wechat-mvc
+
+web-socket-mvc:
+  basePackage: io.github.tomhusky.demo.websocketmvc.controller
+  enable-valid: true
